@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,400;1,100;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden !important;
+}
+section {
+  overflow: hidden !important;
+}
+:root {
+  --Primary: #fed049;
+  --Secondary: #007580;
+  --Red: #e01b24;
+  --Grey: #fafafa;
+  --Black: #000000;
+}
+header,
+.navbar {
+  position: fixed !important;
+  z-index: 999 !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.logo {
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 2.5em;
+  color: #9b27fa !important;
+  font-family: "Cursive", cursive !important;
+  font-style: italic !important;
+  letter-spacing: 2px !important;
+}
+.navbar-nav {
+  margin-left: auto !important;
+}
+.nav-item a {
+  text-decoration: none;
+  color: #ffffff !important;
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 3px;
+  padding: 10px;
+  margin-top: -3px;
+  margin-right: 20px !important;
+}
+.nav-item a:hover {
+  color: #c109c7 !important;
+  transition: 1.1s;
+}
+.main {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+  background-image: url(../images/abstract-blue-night-space-cosmos-background-with-nebula-and-shining-star-vector.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-text p {
+  font-weight: 500;
+  font-size: 2.2em;
+  color: rgb(224, 224, 224);
+  font-weight: 600;
+  margin-bottom: 3px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+}
+.main-text h2 {
+  font-weight: 600;
+  font-size: 1.9em;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.main-text h3 {
+  font-weight: 500;
+  font-size: 1.1em;
+  color: #fff;
+  letter-spacing: 1px;
+}
+#main-child2 {
+  display: flex;
+  justify-content: center;
+}
+.card_1 {
+  background-color: #650bad;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center !important;
+  gap: 10px;
+  text-align: center !important;
+  cursor: default;
+}
+.card_2 {
+  padding: 20px 10px;
+  height: 60px;
+  background-color: #2b0649ea;
+  border-radius: 8px;
+}
+.card_2 img {
+  padding: 5px 0;
+}
+.card_1 h2,
+.card_2 h2 {
+  font-size: 20px;
+  padding-top: 8px;
+  font-weight: 600;
+}
+.card_1 i,
+.card_2 i {
+  font-size: 1.5em;
+}
+.card_2 i {
+  color: #fff;
+}
+.card_parent .card_2 {
+  cursor: default;
+}
+.card_parent .card_2 h3 {
+  color: #fff;
+  font-size: 20px;
+  padding-top: 8px;
+  margin-left: 5px;
+}
+@media (max-width: 750px) {
+  .About div div .card_2 h2,
+  .Projects div div .card_2 h3 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 800 !important;
+  }
+  .up {
+    padding: 40px 0px !important;
+  }
+  .fa-share-alt,
+  .fa-file-alt {
+    margin-right: 10px !important;
+  }
+  .About div div .card_2 img {
+    width: 40px;
+    height: 40px;
+  }
+  .salla {
+    width: 70px !important;
+    height: 70px !important;
+  }
+}
+.main-links {
+  margin-top: 10px;
+}
+.main-links a i {
+  color: #fff;
+  font-size: 1.8em;
+  margin-right: 15px;
+}
+.main-links a i:hover {
+  transition: 0.8s ease;
+  color: #0bb9c9;
+  transform: scale(1.3);
+}
+#main-child1 {
+  padding-top: 120px !important;
+}
+#main-child2 {
+  margin-top: 50px;
+}
+.About,
+.Projects,
+.TRAINING {
+  min-height: 100vh;
+  padding-top: 80px;
+  width: 100%;
+  background-color: rgb(16, 1, 26);
+}
+.About h2,
+.Projects h2,
+.TRAINING h2 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 2.2em;
+  margin: 20px 0px 10px 0px;
+  color: #ffffff;
+}

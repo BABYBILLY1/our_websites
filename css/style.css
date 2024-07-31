@@ -155,6 +155,9 @@ header,
     width: 70px !important;
     height: 70px !important;
   }
+  .Projects div .card_parent .card_2 h3{
+    font-size: 13px;
+  }
 }
 .main-links {
   margin-top: 10px;
